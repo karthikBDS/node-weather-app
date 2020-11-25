@@ -1,0 +1,41 @@
+body{
+    columns: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    color: #888888;
+    border-top: solid 1px #eeeeee;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+header{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+header a{
+    color: #888888;
+    margin-right: 15px;
+    text-decoration: none;
+}
+h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+.main-content {
+    flex-grow: 1;
+}
+#errorDiv{
+    font-weight: bold;
+    color: red;
+}
+#messageDiv{
+    font-weight: bold;
+    color:brown ;
+}
